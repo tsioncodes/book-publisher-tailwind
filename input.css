@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+  height: 700px;
+  width: 100%;
+  background-image: url("../images/hero.jpg");
+  background-position: 50% 74.8125px;
+}
+
+/* hamburger */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+}
+.hamburger > span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #333;
+}
+.hamburger > span:not(:last-child) {
+  margin-bottom: 7px;
+}
